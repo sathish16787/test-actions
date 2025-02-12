@@ -2,7 +2,7 @@ name: first-workflow
 on : [push]
 jobs:
   run-shell-commands:
-    runs-on: ubuntu
+    runs-on: ubuntu-latest
     steps: 
       - name: echo command
         run: echo "Hello world"
@@ -12,4 +12,3 @@ jobs:
         run: |
           which ls
           env
-          
