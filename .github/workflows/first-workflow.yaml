@@ -12,6 +12,7 @@ jobs:
         run: |
           which ls
           env
+          echo "hello world"
   parellel-job-macros:
     runs-on: macos-latest
     steps:
