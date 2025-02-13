@@ -23,5 +23,4 @@ jobs:
     steps:
       - name: echo a string
         run: Write-Output "Window String"
-      - name: Error step
-        run: doesnotexist
+
