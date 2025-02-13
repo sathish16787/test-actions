@@ -13,6 +13,7 @@ jobs:
           which ls
           env
           echo "hello world"
+          which cp
   parellel-job-macros:
     runs-on: macos-latest
     steps:
